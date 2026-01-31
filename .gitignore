@@ -2,15 +2,19 @@
 /node_modules
 
 # Build output
-/dist
-/build
+dist
+build
 *.local
-.nuxt/
-.output/
+.output
+.data
+.nuxt
+.nitro
+.cache
 
 # Environment variables
 .env
 .env.*
+!.env.example
 !.env.production
 !.env.staging
 
@@ -36,3 +40,6 @@ coverage/
 # OS-specific files
 .DS_Store
 Thumbs.db
+
+# Misc
+.fleet
